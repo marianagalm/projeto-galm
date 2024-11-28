@@ -1,0 +1,65 @@
+body {
+    background-color: #fbfbfa;
+    color: #111;
+    font-family: "Azeret Mono", monospace;
+}
+
+.menu_header {
+display:inline;
+color: #111;
+font-family: "Azeret Mono", monospace;
+font-optical-sizing: auto;
+font-weight: 100;
+font-style: normal;
+}
+
+.nav {
+    display: inline;
+}
+
+.header_titulo {
+    display: inline;
+}
+
+.header_subtitulo {
+    display: inline;
+}
+
+.footer {
+    background-color: #fbfbfa;
+    color: #111;
+        background-color: fbfbfa;
+        padding: 20px 0;
+        text-align: center;
+        color: #111;
+    }
+    
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px; /* Espaço entre os links */
+    }
+    
+    .social-links a {
+        color: #111; /* Cor do texto dos links */
+        text-decoration: none; /* Remove o sublinhado */
+        font-size: 18px; /* Tamanho da fonte */
+        font-weight: bold; /* Negrito para destaque */
+        transition: color 0.3s ease, transform 0.3s ease; /* Animações suaves */
+    }
+    
+    .social-links a:hover {
+        color: #111111; /* Cor de destaque no hover (exemplo: azul) */
+        transform: scale(1.1); /* Aumenta levemente o tamanho */
+    }
+
+    .copyright {
+        margin: 0; /* Remove margens padrão */
+        font-size: 14px; /* Tamanho da fonte */
+        background-color: #fbfbfa; /* Cor de fundo do footer */
+        padding: 10px 0; /* Espaçamento interno */
+        text-align: center; /* Centraliza o conteúdo horizontalmente */
+        color: #111; /* Cor do texto */
+    }
+
+    
